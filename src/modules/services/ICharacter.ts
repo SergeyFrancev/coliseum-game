@@ -1,0 +1,52 @@
+export interface ICharacter {
+  ID: number;
+  UserName: string;
+  emodji: string;
+  img: string | null;
+  promt: any;// @todo: replace any
+  npc: number;
+  area: number | null; // @todo: rely is number?
+  auto_agr: number;
+  autoresp: number;
+  activenpc: number;
+  in_action: number;
+  CurrentButtons: number;
+  strong: number;
+  agility: number;
+  stamina: number;
+  intuition: number;
+  attack: number;
+  protection: number;
+  accuracy: number;
+  spirit: number;
+  current_location: number;
+  prev_loc: number;
+  prev_loc2: number;
+  health: number;
+  current_health: number;
+  stand_id: number;
+  cnt_dodge: number;
+  cnt_block: number;
+  cnt_hit: number;
+  cnt_crit: number;
+  cnt_getdmg: number;
+  cnt_parry: number;
+  cnt_suppression: number;
+  cnt_magic: number;
+  reputation: number;
+  authority: number;
+  week_rate: number;
+  max_damage: number;
+  cnt_traumas: number;
+  make_hit: number;
+  last_action: string;
+  mygroup: number;
+  fixed_enemy: number;
+  gold: number;
+  teeth: number;
+  feather: number;
+  essence: number;
+  karma: number;
+  clan: number;
+  refer_id: number;
+}

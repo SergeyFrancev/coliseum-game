@@ -1,0 +1,30 @@
+export interface IInventoryItem {
+  ID: number;
+  Caption: string;
+  range: number;
+  attack: number;
+  protection: number;
+  baf_damage: number;
+  baf_block: number;
+  baf_accuracy: number;
+  baf_parry: number;
+  baf_crit: number;
+  baf_suppress: number;
+  group: number;
+  toslot: number;
+  cost: number;
+  action: string | null;
+  action_param: string | null;
+  aura_id: number;
+  weight: number;
+  damage_type: number;
+  protect_type: number;
+  user_wapons_ID?: number;
+  user_id: number;
+  wapon_id: number;
+  dressed: number;
+  slot: number;
+  durability: number;
+  cnt: number;
+  img: string | null;
+}
